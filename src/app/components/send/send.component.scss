@@ -1,0 +1,11 @@
+.type_msg{
+  background-color: white !important;
+  border:0 !important;
+  color:black !important;
+  height: 60px !important;
+  overflow-y: auto;
+  &:focus{
+    box-shadow:none !important;
+    outline:0px !important;
+  }
+}

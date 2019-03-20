@@ -1,0 +1,19 @@
+@import "../assets/css/variables.scss";
+.scrolltop {
+    display: none;
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    background: $gray-900;
+    color: #fff;
+    text-align: center;
+    font-size: 24px;
+    &:hover,&:active,&:focus{
+      background-color:$primary;
+      color:$gray-900;
+      opacity: .75;
+    }
+  }
